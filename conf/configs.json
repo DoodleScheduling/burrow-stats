@@ -1,0 +1,9 @@
+{
+  "consumers": [
+    {
+      "name": "spam-classifier",
+      "status": "http://burrow:8000/v2/kafka/test/consumer/spam-classifier/status",
+      "consumer_group_offset": "http://burrow:8000/v2/kafka/test/consumer/spam-classifier/topic/doodle.spam.classifier",
+      "topic_offset": "http://burrow:8000/v2/kafka/test/topic/doodle.spam.classifier"
+    }
+  ]
